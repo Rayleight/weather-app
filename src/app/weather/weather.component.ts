@@ -16,7 +16,9 @@ export class WeatherComponent implements OnInit {
       location: ['']
     });
   }
-  
+  sendToAPIXU(formValues) {
+    console.log(formValues);
+  }
   
   
 }
