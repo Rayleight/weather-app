@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormBuilder, FormGroup } from '@angular/forms';
 
 @Component({
   selector: 'app-weather',
@@ -6,10 +7,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./weather.component.css']
 })
 export class WeatherComponent implements OnInit {
+  public weatherSearchForm: FormGroup;
+  constructor(private formBuilder: FormBuilder) {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+  ngOnInit() {
+    this.weatherSearchForm = this.formBuilder.group({
+      location: ['']
+  });
 
 }
