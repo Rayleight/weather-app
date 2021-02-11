@@ -8,11 +8,15 @@ import { FormBuilder, FormGroup } from '@angular/forms';
 })
 export class WeatherComponent implements OnInit {
   public weatherSearchForm: FormGroup;
+  
   constructor(private formBuilder: FormBuilder) {}
 
-  ngOnInit() {
+  ngOnInit(): void {
     this.weatherSearchForm = this.formBuilder.group({
       location: ['']
-  });
-
+    });
+  }
+  
+  
+  
 }
