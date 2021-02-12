@@ -25,3 +25,24 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Instructions:
+
+## Install Angular
+Install Angular npm install -g @angular/cli
++ @angular/cli(version)
+
+## Create Weather Appiclation
+ng new weather-app
+Would you like to add Angular routing? (y/N) = Yes or Y
+Which stylesheet format would you like to use? (Use arrow keys) = CSS then Enter
+
+This installs json packages and type script files.
+
+## Root to the directory via termimanl
+cd weather-app
+
+## Install Dependencies
+npm install --save jquery popper.js bootstrap
+
+
