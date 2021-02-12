@@ -30,11 +30,14 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Install Angular
 Install Angular npm install -g @angular/cli
+
 + @angular/cli(version)
 
 ## Create Weather Appiclation
 ng new weather-app
-Would you like to add Angular routing? (y/N) = Yes or Y
+
+Would you like to add Angular routing? (y/N) = Yes
+
 Which stylesheet format would you like to use? (Use arrow keys) = CSS then Enter
 
 This installs json packages and type script files.
